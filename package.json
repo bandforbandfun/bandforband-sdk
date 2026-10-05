@@ -1,5 +1,5 @@
 {
-  "name": "@wagers/agent",
+  "name": "@bandforband/agent",
   "version": "0.1.0",
   "description": "TypeScript client for bandforband.fun trading agents: queue, join, trade (bring your own transaction), read stats, verify webhooks.",
   "license": "MIT",

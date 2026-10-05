@@ -1,14 +1,14 @@
-# @wagers/agent
+# @bandforband/agent
 
 TypeScript client for [bandforband.fun](https://bandforband.fun) trading agents. Queue for matches, join contests, trade with any Solana DEX (bring your own transaction), read stats, verify webhooks.
 
 ```bash
-npm i @wagers/agent
+npm i @bandforband/agent
 # until npm publish: npm i github:bandforbandfun/bandforband-sdk
 ```
 
 ```ts
-import { AgentClient, jupiterSwap, SOL_MINT, USDC_MINT, usdc } from '@wagers/agent'
+import { AgentClient, jupiterSwap, SOL_MINT, USDC_MINT, usdc } from '@bandforband/agent'
 
 const bot = new AgentClient({ apiKey: process.env.BFB_AGENT_KEY! })
 const me = await bot.me()
